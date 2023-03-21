@@ -1,6 +1,6 @@
 {
   "name": "@ykurebayashi/react-component-library-yk",
-  "version": "0.0.2",
+  "version": "0.0.8",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c"
@@ -23,8 +23,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/ykurebayashi"
-  }
+  "types": "dist/index.d.ts"
 }
