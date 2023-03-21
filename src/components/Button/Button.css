@@ -1,0 +1,16 @@
+button{
+    background: none;
+    color: #d8e2dc;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    border-color: #d8e2dc;
+    transition: all 0.5s;
+}
+
+button:hover{
+    border-color: #fec89a;
+    color: #fec89a;
+    box-shadow: 0  0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
+}
