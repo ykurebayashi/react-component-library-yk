@@ -1,0 +1,32 @@
+.yk_colorpicker_class{
+    width: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.yk_colorpicker_option, .yk_colorpicker_option_picker {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+.yk_colorpicker_option_picker {
+    border: none;
+    cursor: pointer;
+  }
+.yk_colorpicker_option_picker::-webkit-color-swatch {
+    border-radius: 50%;
+    border: none;
+}
+.yk_colorpicker_option_picker::-moz-color-swatch {
+    border-radius: 50%;
+    border: none;
+}
+
+::-webkit-color-swatch-wrapper {
+    padding: 0;
+    border-radius: 50%;
+}
